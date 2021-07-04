@@ -18,7 +18,8 @@ This website has four top level pages:
 | About | https://ryelawoffice.netlify.app/about | [/about.md](/about.md) | [/_layouts/page.html](/_layouts/page.html) |
 | Contact | https://ryelawoffice.netlify.app/contact | [/contact.md](/contact.md) | [/_layouts/contact.html](/layouts/contact.html) |
 | Practice Areas | https://ryelawoffice.netlify.app/practice-areas/ | [/practice-areas.md](/practice-areas.md) | [/_layouts/practice-areas.html](/_layouts/practice-areas.html) |
-# Adding or updating Legal Services
+
+# Adding or updating Practice Areas
 
 The services pages are generated dyamically from the `_services` directory.
 The files in these pages are written in a editing format called markdown.
@@ -40,6 +41,16 @@ weight: 1                          # This controls the ordering of the content f
 layout: service                    # This selects the layout for the page, for services this should be service.
 ---
 ```
+
+Practice Areas:
+
+| Page Name | Page Link | Content Markdown | Page Template |
+| --- | --- | --- | --- |
+| Civil Litigation | https://ryelawoffice.netlify.app/services/civil-litigation | [/_services/civil-litigation.md](/_services/civil-litigation.md) | [/_layouts/service.html](/_layouts/service.html) |
+| Divorce and Family Law | https://ryelawoffice.netlify.app/services/divorce-and-family-law | [/_services/divorce-and-family-law.md](/_services/divorce-and-family-law.md) | [/_layouts/service.html](/_layouts/service.html) |
+| Estate Planning and Probate | https://ryelawoffice.netlify.app/services/estate-planning-and-probate | [/_services/estate-planning-and-probate.md](/_services/estate-planning-and-probate.md) | [/_layouts/service.html](/_layouts/service.html) |
+| Real Estate Title Insurance | https://ryelawoffice.netlify.app/services/real-estate-title-insurance | [/_services/real-estate-title-insurance.md](/_services/real-estate-title-insurance.md) | [/_layouts/service.html](/_layouts/service.html) |
+| Real Estate Transactions | https://ryelawoffice.netlify.app/services/real-estate-transactions | [/_services/real-estate-transactions.md](/_services/real-estate-transactions.md) | [/_layouts/service.html](/_layouts/service.html) |
 
 The remainder of the file will be the page content formatted in yaml.
 

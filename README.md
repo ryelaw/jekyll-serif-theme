@@ -1,33 +1,36 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/zerostaticthemes/jekyll-serif-theme)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ryelaw/jekyll-serif-theme)
 
-# Jekyll Serif Theme
+# Ryelaw Website Source
 
-Serif is a modern business theme for Jekyll. It contains multiple content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+This site is based off the `Jekyll Serif Theme and has several templates for a law office website. The theme is fully responsive, blazing fast and artfully illustrated.
 
-[Live Demo](https://jekyll-serif.netlify.app/) | 
-[Zerostatic Themes](https://www.zerostatic.io)
+- [Jekyll Serif Live Demo](https://jekyll-serif.netlify.app/) | 
+- [Zerostatic Themes](https://www.zerostatic.io)
 
-![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
+# Adding or updating Legal Services
 
-## Theme features
+The services pages are generated dyamically from the `_services` directory.
+The files in these pages are written in a editing format called markdown.
+Here's a link to a good [markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+for guidance on how to format the content.
 
-- Jekyll 4.1
-- Services (Collection)
-- Team (Collection)
-- Features (Data)
-- SCSS
-- Responsive design
-- Bootstrap 4.3 grid and media queries only
-- Responsive menu
-- 100/100 Google Lighthouse speed score
-- 100/100 Google Lighthouse seo score
-- 100/100 Google Lighthouse accessibility score
-- 100/100 Google Lighthouse best practices score
-- Under 50KB without images or 80KB with images and illustrations ⚡
-- Under 20KB without Google fonts ⚡⚡⚡
-- Robust example content included
-- Royalty free illustrations included
-- Netlify & Github Pages ready
+Each file in `_services` will begin with a standard yaml header that tells the site generator
+what the title of the page is, when it was created, whether it is featured, its ordering
+weight for layout and the layout template to use.
+
+Example Header:
+
+```yaml
+---
+title: "Real Estate Transactions"  # This becomes the title of the page in H1 format.
+# date: 2018-11-28T15:14:54+10:00  # This is the page creation date.  This should remain commented out.
+featured: true                     # This should be set to true to feature the service on the website front page.
+weight: 1                          # This controls the ordering of the content from left to right
+layout: service                    # This selects the layout for the page, for services this should be service.
+---
+```
+
+The remainder of the file will be the page content formatted in yaml.
 
 # Installation
 
@@ -63,7 +66,7 @@ bundle exec jekyll build
 
 This theme contains a `netlify.toml` and has been tested to work with Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ryelaw/jekyll-serif-theme)
 
 ## Github Pages
 This theme has been tested to work with Github Pages (and Github Project Pages)

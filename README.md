@@ -8,6 +8,16 @@ This site is based off the `Jekyll Serif Theme and has several templates for a l
 - [Jekyll Serif Live Demo](https://jekyll-serif.netlify.app/) | 
 - [Zerostatic Themes](https://www.zerostatic.io)
 
+# Adding or updating Top Level Pages
+
+This website has four top level pages:
+
+| Page Name | Page Link | Content Markdown | Page Template |
+| --- | --- | --- | --- |
+| Home | https://ryelawoffice.netlify.app/ | [/index.md](index.md) | [/_layouts/home.html](/_layouts/home.html) |
+| About | https://ryelawoffice.netlify.app/about | [/about.md](/about.md) | [/_layouts/page.html](/_layouts/page.html) |
+| Contact | https://ryelawoffice.netlify.app/contact | [/contact.md](/contact.md) | [/_layouts/contact.html](/layouts/contact.html) |
+| Practice Areas | https://ryelawoffice.netlify.app/practice-areas/ | [/practice-areas.md](/practice-areas.md) | [/_layouts/practice-areas.html](/_layouts/practice-areas.html) |
 # Adding or updating Legal Services
 
 The services pages are generated dyamically from the `_services` directory.

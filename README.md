@@ -1,4 +1,5 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ryelaw/jekyll-serif-theme)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c803b47f-87fd-4fd5-b9b6-1dfd2906ff3e/deploy-status)](https://app.netlify.com/sites/ryelawoffice/deploys)
 
 # Ryelaw Website Source
 
